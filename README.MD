@@ -10,17 +10,17 @@
     + The Project runs successfully.
 
 - This is the output of the Business Card Page: 
-1. Mobile View
+- Mobile View
 ![This is the Screenshot of the Business Card Page](screenshots/business-card-mobile.png)
 
-2. Desktop View
+- Desktop View
 ![This is the Screenshot of the Business Card Page](screenshots/business-card-desktop.png)
 
 - This is the output of the Pricing Page:
-1. Mobile View
+- Mobile View
 ![This is the Screenshot of the Pricing Page](screenshots/pricing-mobile1.png)
 
 ![This is the Screenshot of the Pricing Page](screenshots/pricing-mobile2.png)
 
-2. Desktop View
+- Desktop View
 ![This is the Screenshot of the Pricing Page](screenshots/pricing-desktop.png)
