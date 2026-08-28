@@ -2,7 +2,7 @@
 
 ## This is the second assignment at Mctaba Labs
 
-- This is the link to the deployed version of my code on GitHub Pages.
+- This is the link to the deployed version of my code on GitHub Pages: https://geokoder.github.io/week-1-day-2-assignment/
 
 - To setup this project on your computer you need to:
     + Clone the Project.
