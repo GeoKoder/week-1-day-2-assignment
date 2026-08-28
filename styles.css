@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+/* Brand Colors - Generated using Cursor */
+/* The Code below puts the colros that I will use all throughout the code into variables in the root of styles.css */
+:root {
+  --color-primary: #0f2744;
+  --color-primary-dark: #0a1b2e;
+  --color-accent: #1a7a6d;
+  --color-accent-soft: #e6f4f2;
+  --color-gold: #b8952c;
+  --color-page: #e8eef4;
+  --color-card: #ffffff;
+  --color-text: #1c2430;
+  --color-text-muted: #5a6573;
+  --color-border: #d4dce6;
+  --color-shadow: rgba(15, 39, 68, 0.18);
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-page);
+  color: var(--color-text);
+  font-family: "Poppins", system-ui, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card-container {
+  max-width: 400px;
+  background-color: var(--color-card);
+  border-radius: 25px;
+  box-shadow: 0 12px 32px var(--color-shadow);
+  padding: 20px 100px;
+  border-left: 4px solid var(--color-accent);
+}
+
+#owner {
+  font-family: "Poppins", sans-serif;
+  color: var(--color-primary);
+}
+
+h2 {
+  color: var(--color-text-muted);
+  font-style: italic;
+  font-size: 16px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid var(--color-border);
+}
+
+.contact-info {
+  margin: 10px;
+  padding: 10px;
+  background-color: var(--color-accent-soft);
+  border-radius: 15px;
+}
+
+
+a {
+  color: var(--color-accent);
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--color-primary-dark);
+}
+
+button {
+  background-color: var(--color-primary);
+  padding: 10px;
+  color: var(--color-card);
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--color-primary-dark);
+}
+
+input,
+textarea {
+  border: 1px solid var(--color-border);
+  border-radius: 5px;
+  color: var(--color-text);
+}
+
+input:focus,
+textarea:focus {
+  outline: 2px solid var(--color-accent);
+}
