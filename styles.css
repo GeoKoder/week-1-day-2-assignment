@@ -12,6 +12,7 @@
   --color-text-muted: #5a6573;
   --color-border: #d4dce6;
   --color-shadow: rgba(15, 39, 68, 0.18);
+  --color-shadow-dark: rgba(7, 18, 32, 0.18);
 }
 
 /* General Styling */
@@ -39,9 +40,10 @@ body {
   border-radius: 25px;
   box-shadow: 0 12px 32px var(--color-shadow);
   margin: 0 auto;
-  padding: 20px 100px;
+  padding: 20px;
   border-left: 4px solid var(--color-accent);
   position: relative;
+  flex: 1;
   transition: all 0.3s ease;
 }
 
@@ -104,6 +106,7 @@ hr {
 a {
   color: var(--color-accent);
   transition: color 0.3s ease;
+  text-decoration: none;
 }
 
 a:hover {
