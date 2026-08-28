@@ -41,6 +41,7 @@ body {
   padding: 20px 100px;
   border-left: 4px solid var(--color-accent);
   position: relative;
+  transition: all 0.3s ease;
 }
 
 .card-container.featured {
@@ -49,6 +50,14 @@ body {
   transform: scale(1.06);
   z-index: 1;
   padding-top: 2.5rem;
+}
+
+.card-container:hover {
+  transform: scale(1.05);
+  box-shadow: 0 16px 48px var(--color-shadow-dark);
+  button {
+    background-color: var(--color-primary-dark);
+  }
 }
 
 .badge {
@@ -148,10 +157,9 @@ li:last-child {
 @media (min-width: 768px) {
   .card-container {
     display: inline-block;
-    max-width: 350px;
-    width: 32%;
+    max-width: 500px;
+    width: 72%;
     vertical-align: top;
-    margin-right: 2%;
     margin-bottom: 0;
   }
 
@@ -172,6 +180,14 @@ li:last-child {
     max-width: 100%;
     margin-right: 0;
     margin-bottom: 20px;
+  }
+
+  .card-container:hover {
+    transform: scale(1.02);
+    box-shadow: 0 16px 48px var(--color-shadow-dark);
+    button {
+      background-color: var(--color-primary-dark);
+    }
   }
 
   .card-container:last-child {
