@@ -14,11 +14,12 @@
   --color-shadow: rgba(15, 39, 68, 0.18);
 }
 
+/* General Styling */
 * {
   margin: 0;
   box-sizing: border-box;
 }
-
+/* Body Styling  */
 body {
   background-color: var(--color-page);
   color: var(--color-text);
@@ -31,7 +32,7 @@ body {
   min-height: 100vh;
   padding: 2rem;
 }
-
+/* Card content styling  */
 .card-container {
   max-width: 400px;
   background-color: var(--color-card);
@@ -99,6 +100,7 @@ hr {
   border-radius: 15px;
 }
 
+/* Link Styling and hover effect */
 a {
   color: var(--color-accent);
   transition: color 0.3s ease;
@@ -108,6 +110,7 @@ a:hover {
   color: var(--color-primary-dark);
 }
 
+/* Button styling and hover effect  */
 button {
   background-color: var(--color-primary);
   color: var(--color-card);
@@ -123,6 +126,7 @@ button:hover {
   background-color: var(--color-primary-dark);
 }
 
+/* Styling for the Input areas  */
 input,
 textarea {
   border: 1px solid var(--color-border);
@@ -135,6 +139,7 @@ textarea:focus {
   outline: 2px solid var(--color-accent);
 }
 
+/* Styling for the list elements */
 ul {
   list-style: none;
   margin: 0;
@@ -154,6 +159,8 @@ li:last-child {
   border-bottom: none;
 }
 
+/* Responsiveness for the page  */
+/* Desktop View  */
 @media (min-width: 768px) {
   .card-container {
     display: inline-block;
@@ -168,6 +175,7 @@ li:last-child {
   }
 }
 
+/* Mobile View  */
 @media (max-width: 768px) {
   body {
     padding: 1rem;
